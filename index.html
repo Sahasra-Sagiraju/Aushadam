@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/queries.css" />
+
+    <script defer src="./scripts/script.js"></script>
+
+    <title>Aushadam &mdash; Become healthy</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="container header-content">
+        <a href="#" class="aushadam-logo">Aushadam</a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-list-item">
+              <a href="#" class="main-nav-list-item-link">Home</a>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#" class="main-nav-list-item-link">Doctors</a>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#" class="main-nav-list-item-link">Lab Tests</a>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#" class="main-nav-list-item-link">Pharmacy</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="menu-icon">
+          <img src="./icons/menu-icon.png" alt="menu icon" />
+        </a>
+        <button class="btn btn-profile">
+          <img
+            src="./icons/user-profile-icon.svg"
+            alt="user profile button which has a grey color person inside a black circle"
+          />
+        </button>
+      </div>
+      <div class="mobile-nav">
+        <div class="container">
+          <ion-icon name="home-outline"></ion-icon>
+          <ion-icon name="search-outline"></ion-icon>
+          <ion-icon name="person-outline"></ion-icon>
+        </div>
+      </div>
+    </header>
+
+    <!-- FILTER SECTION -->
+    <section class="section-filter">
+      <div class="container">
+        <div class="location-search-container">
+          <select
+            class="select-location"
+            name="select-location"
+            id="select-location"
+            required
+          >
+            <option value="">Location</option>
+            <option value="Vizag">Visakhapatnam</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Bangalore">Bangalore</option>
+          </select>
+          <input
+            class="search-bar"
+            type="text"
+            placeholder="eg: Doctor, specialisation, clinic name"
+            required
+          />
+          <button class="btn btn-search">
+            <img
+              src="./icons/search-with-filter-icon.svg"
+              alt="button to search with given filters"
+            />
+          </button>
+          <button class="btn btn-filter-copy">
+            <img src="./icons/filter-icon.svg" alt="filter button" />
+          </button>
+        </div>
+        <button class="btn btn-filter">
+          <img src="./icons/filter-icon.svg" alt="filter button" />
+        </button>
+        <img
+          src="./icons/medical-laptop.png"
+          alt="laptop with plus symbol on it's screen"
+          class="bg-icon laptop-icon"
+        />
+        <img
+          src="./icons/paper-icon.png"
+          alt="a paper icon"
+          class="bg-icon paper-icon"
+        />
+        <img
+          src="./icons/briefcase.png"
+          alt="a medical kit icon"
+          class="bg-icon briefcase-icon"
+        />
+        <img
+          src="./icons/medical-ambulance.png"
+          alt="ambulance icon"
+          class="bg-icon ambulance-icon"
+        />
+        <img
+          src="./icons/stethoscope.png"
+          alt="a stethoscope icon"
+          class="bg-icon stethoscope-icon"
+        />
+      </div>
+    </section>
+
+    <!-- HERO SECTION -->
+    <section class="section-hero">
+      <div class="container grid grid-hero">
+        <div class="hero-content grid">
+          <div class="hero-content-top-part">
+            <h1 class="heading-primary add-margin-bottom-md">
+              Your health, Your records, Your
+              <span class="green-highlight">control</span>
+            </h1>
+            <div class="hero-desc-container add-margin-bottom-la">
+              <p class="hero-desc">
+                Join us in creating Healthy mind and Healthy body.
+              </p>
+            </div>
+          </div>
+          <div class="hero-content-bottom-part">
+            <a href="#" class="hero-btn btn1 add-margin-bottom-sm"
+              >Create your ABHA address</a
+            >
+            <p class="hero-helper-text add-margin-bottom-md">
+              <!-- You just need your Mobile number and Aadhar number -->
+              <!-- Only mobile and aadhar numbers required -->
+              Mobile number and Aadhar required*
+            </p>
+            <a href="#" class="hero-btn btn2 add-margin-bottom-sm"
+              >Link your ABHA
+            </a>
+            <a href="#" class="hero-btn btn3">Proceed with ABHA</a>
+            <br />
+            <a href="#" class="about-abha">What is ABHA Number?</a>
+          </div>
+        </div>
+
+        <div class="hero-img-container">
+          <!-- <img
+            class="temp-img"
+            src="./img/Mockup1.svg"
+            alt="Android app with sign-up screen"
+          /> -->
+          <img
+            class="img1"
+            src="./img/Mockup1.svg"
+            alt="Android app with sign-up screen"
+          />
+          <img
+            class="img2"
+            src="./img/Mockup2.svg"
+            alt="Android app with ABHA screen"
+          />
+          <img
+            class="abha-logo"
+            src="./img/abha-logo-svg.svg"
+            alt="abha logo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="section-features">
+      <div class="container">
+        <h2 class="heading-secondary">What We Offer</h2>
+        <div class="grid grid-2-cols">
+          <a class="feature-link" href="#">
+            <figure class="feature-box find-doctors-link center-align-text">
+              <img
+                src="./icons/location-icon.svg"
+                alt="location icon to find doctors"
+                class="feature-icon"
+              />
+              <figcaption class="feature-title">Find Doctors</figcaption>
+            </figure>
+          </a>
+          <a class="feature-link" href="#">
+            <figure class="feature-box lab-tests-link center-align-text">
+              <img
+                src="./icons/test-tube-icon.svg"
+                alt="test tube icon for lab tests"
+                class="feature-icon"
+              />
+              <figcaption class="feature-title">Lab Tests</figcaption>
+            </figure>
+          </a>
+          <a class="feature-link" href="#">
+            <figure class="feature-box hospitals-link center-align-text">
+              <img
+                src="./icons/hospital-icon.svg"
+                alt="location icon for hospitals"
+                class="feature-icon"
+              />
+              <figcaption class="feature-title">Hospitals</figcaption>
+            </figure>
+          </a>
+          <a class="feature-link" href="#">
+            <figure
+              class="feature-box personalised-plan-link center-align-text"
+            >
+              <img
+                src="./icons/microscope-icon.svg"
+                alt="location icon for personalised plan"
+                class="feature-icon"
+              />
+              <figcaption class="feature-title">Personalised Plan</figcaption>
+            </figure>
+          </a>
+
+          <div class="referral-box container">
+            <div class="referral-text-box">
+              <p class="referral-program-info">
+                Add your family members and earn rewards
+              </p>
+              <a href="#" class="hero-btn referral-btn">Add now</a>
+            </div>
+            <div class="referral-img-box">
+              <img
+                class="referral-img"
+                src="./img/gifts-animation.svg"
+                alt="a woman is carrying gifts in her hand"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="section-cta">
+      <div class="container grid grid-2-cols">
+        <div class="cta-text-box">
+          <p class="heading-tertiary add-margin-bottom-md">
+            Are you experiencing any digestive issues such as bloating, acidity,
+            stomach aches, and more?
+          </p>
+          <p class="cta-desc add-margin-bottom-la">
+            If so, consult our highly skilled Gastroenterologist, Ayurveda
+            doctor, and nutritionist and receive personalized care from your
+            doctor.
+          </p>
+          <span class="cta-text">Look for</span>
+          <div class="cta-links">
+            <a href="#" class="cta-link-item">Gastroenterologist</a>
+            <a href="#" class="cta-link-item">Ayurveda Doctor</a>
+          </div>
+        </div>
+
+        <div class="cta-img-box">
+          <img
+            src="./img/cta-img2.png"
+            alt="A woman wearing white coat"
+            class="cta-img"
+          />
+          <img
+            src="./img/cta-img1.png"
+            alt="A man wearning white coat and a stethoscope"
+            class="cta-img"
+          />
+          <img
+            src="./img/cta-img3.png"
+            alt="A woman cooking food in kitchen"
+            class="cta-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer grid grid-6-cols">
+      <div class="footer-part part1">
+        <ul class="social-links">
+          <li class="social-link-item">
+            <a href="#">
+              <img src="./icons/facebook.png" alt="facebook icon" />
+            </a>
+          </li>
+          <li class="social-link-item">
+            <a href="#">
+              <img src="./icons/instagram.png" alt="instagram icon" />
+            </a>
+          </li>
+          <li class="social-link-item">
+            <a href="#"><img src="./icons/twitter.png" alt="twitter icon" /></a>
+          </li>
+          <li class="social-link-item">
+            <a href="#">
+              <img src="./icons/linkedin.png" alt="linkedin icon" />
+            </a>
+          </li>
+        </ul>
+        <span class="copyright-info">
+          &copy; 2022 Aushadam All rights reserved
+        </span>
+      </div>
+
+      <div class="footer-part part2 center-align-text">
+        <span class="heading-tertiary add-margin-bottom-la">For doctors</span>
+        <ul class="sign-up-links">
+          <li>
+            <a href="#">Log in</a>
+          </li>
+          <li>
+            <a href="#">Register</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-part part3 center-align-text">
+        <span class="heading-tertiary add-margin-bottom-la"
+          >For dieticians</span
+        >
+        <ul class="sign-up-links">
+          <li>
+            <a href="#">Log in</a>
+          </li>
+          <li>
+            <a href="#">Register</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-part part4 center-align-text">
+        <a href="#" class="footer-company-logo add-margin-bottom-la"
+          >Aushadam</a
+        >
+        <ul class="sign-up-links">
+          <li>
+            <a href="#">About us</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact us</a>
+          </li>
+          <li>
+            <a href="#">Location</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,624 @@
+/*
+FONT SIZES:
+4 / 6 / 8 / 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 / 122
+
+Primary color: #297373
+Tints:
+Shades: 
+*/
+
+/************************/
+/*    HEADER SECTION    */
+/************************/
+.header {
+  padding: 3rem 0;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.05);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aushadam-logo:link,
+.aushadam-logo:visited {
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: "Poppins", "Inter", sans-serif;
+  color: #297373;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.aushadam-logo:hover,
+.aushadam-logo:active {
+  color: #215c5c;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4.4rem;
+  list-style: none;
+}
+
+.main-nav-list-item-link:link,
+.main-nav-list-item-link:visited {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.main-nav-list-item-link:hover,
+.main-nav-list-item-link:active {
+  color: #297373;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.btn-profile {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/************************/
+/*    FILTER SECTION    */
+/************************/
+.section-filter {
+  padding: 8.6rem 0 8.6rem 0;
+  background-color: #f5f7fb;
+}
+
+.section-filter .container {
+  position: relative;
+  /* background-color: red; */
+}
+
+.location-search-container {
+  display: flex;
+  margin-left: 14%;
+}
+
+.select-location {
+  height: 5.4rem;
+  width: 15rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border: 1px solid #000;
+  border-right: none;
+  margin-right: 0.5rem;
+}
+
+.search-bar {
+  height: 5.4rem;
+  width: 47rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.05rem;
+  /* border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px; */
+  border: 1px solid #000;
+  border-right: none;
+  border-left: none;
+  padding-left: 1.5rem;
+}
+
+.btn-search {
+  height: 5.4rem;
+  width: 5rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-left: none;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.btn-filter {
+  height: 5.4rem;
+  width: 5.4rem;
+  background-color: #f5f7fb;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 9rem;
+  cursor: pointer;
+}
+
+.btn-filter-copy {
+  height: 5.4rem;
+  width: 5.4rem;
+  background-color: #f5f7fb;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.bg-icon {
+  pointer-events: none;
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  opacity: 0.35;
+}
+
+.laptop-icon {
+  width: 5rem;
+  height: 4rem;
+  left: 9%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.paper-icon {
+  height: 5rem;
+  width: 5rem;
+  top: 100%;
+  left: 25%;
+  transform: translate(20%, 32%);
+}
+
+.briefcase-icon {
+  height: 7rem;
+  width: 7rem;
+  top: -100%;
+  left: 40%;
+  transform: translate(0%, -38%);
+}
+
+.ambulance-icon {
+  height: 3.25rem;
+  width: 4.75rem;
+  top: 100%;
+  right: 37%;
+  transform: translate(0%, 75%);
+}
+
+.stethoscope-icon {
+  height: 3.75rem;
+  width: 3.75rem;
+  bottom: 100%;
+  right: 25%;
+  transform: translate(0%, -60%);
+}
+
+/************************/
+/*     HERO SECTION     */
+/************************/
+.section-hero {
+  padding: 9.6rem 0;
+}
+
+.grid-hero {
+  grid-template-columns: 3fr 1fr;
+}
+
+.hero-content-bottom-part {
+  align-self: center;
+}
+
+.green-highlight {
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  border-radius: 9px;
+  background-color: #62f65e;
+}
+
+.hero-desc-container {
+  max-width: 60%;
+}
+
+.hero-desc {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  color: #000;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  letter-spacing: 0.05rem;
+  color: #fff;
+  background-color: #297373;
+  text-decoration: none;
+  border-radius: 9px;
+  /* padding: 1rem 2rem; */
+  padding: 1.5rem 3rem;
+  transition: all 0.3s;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #3e8181;
+}
+
+.hero-btn.btn2:link,
+.hero-btn.btn2:visited {
+  background-color: #6e49ff;
+  transition: all 0.3s;
+}
+
+.hero-btn.btn2:hover,
+.hero-btn.btn2:active {
+  background-color: #6342e6;
+}
+
+.hero-btn.btn3:link,
+.hero-btn.btn3:visited {
+  display: none;
+  transition: all 0.3s;
+}
+
+.hero-btn.btn3:hover,
+.hero-btn.btn3:active {
+  background-color: #3e8181;
+}
+
+.hero-helper-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.about-abha:link,
+.about-abha:visited {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #4985ff;
+  transition: all 0.3s;
+}
+
+.about-abha:hover,
+.about-abha:active {
+  color: #4278e6;
+  border-bottom: 1px solid currentColor;
+  position: relative;
+}
+
+.hero-img-container {
+  position: relative;
+}
+
+.img1,
+.img2 {
+  display: block;
+  position: absolute;
+  width: 160px;
+  height: 356px;
+}
+
+.img1 {
+  bottom: 0;
+  left: 0;
+  transform: translate(-67.5%, 2%);
+}
+
+.img2 {
+  top: 0;
+  right: 0;
+  transform: translate(-10%, 12%);
+}
+
+/* .temp-img {
+  width: 100%;
+  opacity: 1;
+  pointer-events: none;
+  visibility: hidden;
+} */
+
+.abha-logo {
+  display: none;
+}
+
+/************************/
+/*   FEATURES SECTION   */
+/************************/
+.section-features {
+  padding: 9.6rem 0;
+  background-color: #f5f7fb;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-features::before {
+  content: "";
+  display: block;
+  height: 82rem;
+  width: 82rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: translate(-45%, -30%);
+  background-color: rgba(252, 192, 242, 0.5);
+  filter: blur(25px);
+  z-index: -1;
+}
+
+.section-features::after {
+  content: "";
+  display: block;
+  height: 82rem;
+  width: 82rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  transform: translate(54%, 29%);
+  background-color: rgba(114, 154, 255, 0.3);
+  filter: blur(25px);
+  z-index: -1;
+}
+
+.section-features .heading-secondary {
+  margin-bottom: 5.6rem;
+}
+
+.section-features .grid {
+  column-gap: 18rem;
+  row-gap: 4rem;
+  justify-items: start;
+}
+
+.feature-link:link,
+.feature-link:visited {
+  text-decoration: none;
+  color: #000;
+  border-radius: 22px;
+  transition: all 0.4s;
+}
+
+.feature-link:hover,
+.feature-link:active {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 5px #91909097;
+}
+
+.find-doctors-link {
+  background-color: rgba(114, 154, 255, 0.8);
+  transition: all 0.4s;
+}
+
+.lab-tests-link {
+  background-color: rgba(255, 89, 89, 0.8);
+}
+
+.hospitals-link {
+  background-color: #62f75e;
+}
+
+.personalised-plan-link {
+  background-color: #fe8f77;
+}
+
+.feature-box {
+  /* padding: 2rem 12rem; */
+  padding: 2rem 0;
+  width: 38rem;
+  border-radius: 22px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.feature-icon {
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.feature-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.referral-program-info {
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.referral-box {
+  padding: 4rem 8rem;
+  grid-column: span 2;
+  width: 100%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 22px;
+}
+
+.referral-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.referral-box .referral-btn {
+  align-self: flex-start;
+  flex-grow: 0;
+  padding: 1.8rem 3.6rem;
+}
+
+.referral-img {
+  width: 100%;
+}
+
+/************************/
+/*      CTA SECTION     */
+/************************/
+.section-cta {
+  padding: 6.4rem 0;
+  background-color: #ffdad7;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-cta .grid {
+  gap: 5rem;
+}
+
+.cta-desc {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.cta-text {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.cta-links {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.cta-link-item:link,
+.cta-link-item:visited {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 11px;
+  transition: all 0.3s;
+}
+
+.cta-link-item:hover,
+.cta-link-item:active {
+  background-color: #f4fdfd;
+}
+
+.cta-img-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.cta-img {
+  margin-right: -4rem;
+}
+
+/************************/
+/*     FOOTER SECTION   */
+/************************/
+.footer {
+  padding: 6.4rem 3.2rem;
+  background: rgba(50, 50, 50, 0.95);
+}
+
+.footer a:link,
+.footer a:visited {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.footer a:hover,
+.footer a:active {
+  /* color: #ced4da; */
+  color: #b7dada;
+}
+
+.footer-part span {
+  display: inline-block;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.social-link-item {
+  display: inline-block;
+}
+
+.social-link-item a {
+  display: inline-block;
+}
+
+.social-link-item img {
+  display: block;
+  width: 100%;
+}
+
+.part1,
+.part4 {
+  grid-column: span 2;
+}
+
+.part1 {
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.part2,
+.part3 {
+  justify-self: center;
+}
+
+.part4 {
+  justify-self: end;
+}
+
+.copyright-info {
+  margin-top: auto;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.sign-up-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-part .heading-tertiary {
+  color: #fff;
+}
+
+.sign-up-links a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-company-logo:link,
+.footer-company-logo:visited,
+.footer-company-logo:hover,
+.footer-company-logo:active {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.part1,
+.part2,
+.part3 {
+  margin-top: 0.4rem;
+}

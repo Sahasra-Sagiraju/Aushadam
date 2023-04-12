@@ -1,0 +1,114 @@
+/************************/
+/*     GLOBAL RESET     */
+/************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  /* outline: 2px solid #000; */
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 1rem rgba(41, 115, 115, 0.455);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/************************/
+/*       CONTAINER      */
+/************************/
+.container {
+  width: 100rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/************************/
+/*          GRID        */
+/************************/
+
+.grid {
+  display: grid;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-6-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/************************************************/
+/*        HELPER CLASSES FOR ADDING MARGIN      */
+/************************************************/
+.add-margin-bottom-sm {
+  margin-bottom: 0.8rem;
+  /* margin-bottom: 1rem; */
+}
+
+.add-margin-bottom-md {
+  margin-bottom: 3rem;
+}
+
+.add-margin-bottom-la {
+  margin-bottom: 5rem;
+}
+
+.add-margin-top-sm {
+  margin-top: 0.5rem;
+}
+
+.add-margin-top-md {
+  margin-top: 2rem;
+}
+
+/************************/
+/*       HEADINGS       */
+/************************/
+.heading-primary {
+  font-size: 5.4rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: #000;
+}
+
+.heading-secondary {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+/************************/
+/*     TEXT RELATED     */
+/************************/
+.center-align-text {
+  text-align: center;
+}

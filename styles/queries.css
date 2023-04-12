@@ -1,0 +1,801 @@
+/****************************************/
+/*    HANDLING SMALL LAPTOPS (1250px)   */
+/****************************************/
+@media (max-width: 78em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/****************************************/
+/*        HANDLING  TABLETS (988)     */
+/****************************************/
+@media (max-width: 62em) {
+  .container {
+    width: 85rem;
+  }
+
+  .aushadam-logo:link,
+  .aushadam-logo:visited,
+  .aushadam-logo:hover,
+  .aushadam-logo:active {
+    font-size: 2.3rem;
+  }
+
+  .main-nav-list-item-link:link,
+  .main-nav-list-item-link:visited,
+  .main-nav-list-item-link:hover,
+  .main-nav-list-item-link:active {
+    font-size: 1.7rem;
+  }
+
+  .location-search-container {
+    margin-left: 17%;
+  }
+
+  .select-location {
+    height: 5rem;
+    width: 12rem;
+    font-size: 1.5rem;
+  }
+
+  .search-bar {
+    height: 5rem;
+    width: 36rem;
+    font-size: 1.5rem;
+  }
+
+  .btn-search {
+    height: 5rem;
+    width: 3.5rem;
+  }
+
+  .btn-filter {
+    height: 5rem;
+    width: 3.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12rem;
+  }
+
+  .laptop-icon {
+    left: 12%;
+  }
+
+  .paper-icon {
+    left: 30%;
+    transform: translate(20%, 32%);
+  }
+
+  .ambulance-icon {
+    right: 38%;
+    transform: translate(0%, 75%);
+  }
+
+  .briefcase-icon {
+    left: 42%;
+    transform: translate(0%, -38%);
+  }
+
+  .stethoscope-icon {
+    right: 27%;
+    transform: translate(0%, -60%);
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+
+  .hero-desc {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .hero-btn:link,
+  .hero-btn:visited,
+  .hero-btn:hover,
+  .hero-btn:active {
+    font-size: 1.6rem;
+  }
+
+  .hero-helper-text {
+    font-size: 1.5rem;
+  }
+
+  .about-abha:link,
+  .about-abha:visited,
+  .about-abha:hover,
+  .about-abha:active {
+    font-size: 1.5rem;
+  }
+
+  .img1,
+  .img2 {
+    height: 33.5rem;
+  }
+
+  .img2 {
+    top: 3%;
+    right: -19%;
+  }
+
+  .heading-secondary {
+    font-size: 2.9rem;
+  }
+
+  .section-features .grid {
+    gap: 3.2rem;
+  }
+
+  .section-features::before,
+  .section-features::after {
+    height: 70rem;
+    width: 70rem;
+  }
+
+  .section-features::before {
+    transform: translate(-54%, -18%);
+  }
+
+  .section-features::after {
+    transform: translate(59%, 29%);
+  }
+
+  .feature-title {
+    font-size: 1.5rem;
+  }
+
+  .referral-box {
+    padding: 2.75rem 5rem;
+    width: 100%;
+  }
+
+  .referral-program-info {
+    font-size: 3.2rem;
+  }
+
+  .referral-box .referral-btn {
+    font-size: 1.5rem;
+    padding: 1.6rem 3.2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.2rem;
+  }
+
+  .cta-desc {
+    font-size: 1.55rem;
+  }
+
+  .cta-link-item:link,
+  .cta-link-item:visited,
+  .cta-link-item:hover,
+  .cta-link-item:active {
+    font-size: 1.6rem;
+    padding: 1.3rem 1.8rem;
+  }
+
+  .cta-img {
+    height: 14rem;
+    width: 14rem;
+  }
+
+  .copyright-info {
+    font-size: 1.2rem;
+  }
+
+  .footer-company-logo:link,
+  .footer-company-logo:visited,
+  .footer-company-logo:hover,
+  .footer-company-logo:active {
+    font-size: 2.8rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .sign-up-links a {
+    font-size: 1.5rem;
+    gap: 1rem;
+  }
+
+  .social-links img {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+  .footer.grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 2rem;
+  }
+
+  .part1,
+  .part4 {
+    grid-column: span 1;
+    justify-self: center;
+  }
+
+  .part1 {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .copyright-info {
+    margin-top: 0;
+  }
+
+  .social-links {
+    margin-top: auto;
+    margin-bottom: 5rem;
+  }
+
+  .part2 .heading-tertiary,
+  .part3 .heading-tertiary {
+    margin-bottom: 2rem;
+  }
+}
+
+/****************************************/
+/*        HANDLING  TABLETS (850px)     */
+/****************************************/
+@media (max-width: 54em) {
+  .container {
+    width: 70rem;
+  }
+  .main-nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    order: 1;
+  }
+
+  .btn-profile {
+    order: -1;
+    margin-left: 0;
+  }
+
+  .section-filter {
+    padding: 7.4rem 0;
+  }
+
+  .select-location {
+    height: 4.5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+  }
+
+  .search-bar {
+    height: 4.5rem;
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+
+  .btn-search {
+    height: 4.5rem;
+    width: 3.15rem;
+  }
+
+  .btn-filter img {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+
+  .btn-filter {
+    right: 8rem;
+  }
+
+  .laptop-icon {
+    left: 11%;
+  }
+
+  .paper-icon {
+    left: 29%;
+  }
+
+  .briefcase-icon {
+    left: 41%;
+  }
+
+  .stethoscope-icon {
+    bottom: 86%;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .feature-box {
+    width: 30rem;
+  }
+
+  .referral-box {
+    width: 100%;
+  }
+
+  .referral-program-info {
+    font-size: 2.6rem;
+  }
+
+  .section-cta .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img-box {
+    grid-row: 1;
+  }
+
+  .section-cta .cta-desc,
+  .section-cta .cta-text {
+    text-align: center;
+  }
+
+  .cta-links .cta-link-item:first-child {
+    margin-left: 20%;
+  }
+
+  .cta-img-box {
+    display: block;
+    text-align: center;
+  }
+
+  .section-cta .heading-tertiary {
+    text-align: center;
+  }
+}
+
+@media (max-width: 42.18em) {
+  .container {
+    width: 60rem;
+  }
+
+  .location-search-container {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-left: 0;
+    row-gap: 1rem;
+  }
+
+  .btn-filter {
+    display: none;
+  }
+
+  .btn-filter-copy {
+    display: block;
+    width: 100%;
+  }
+
+  .btn-filter-copy img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .select-location {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 9px;
+  }
+
+  .search-bar {
+    grid-row: 2;
+    grid-column: 1;
+    width: 100%;
+    border: 1px solid #000;
+    border-right: none;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+  }
+
+  .btn-search {
+    grid-row: 2;
+    grid-column: 2;
+    width: 100%;
+  }
+
+  .section-hero .container.grid {
+    grid-template-columns: 60% 40%;
+  }
+
+  .heading-primary {
+    font-size: 4.7rem;
+    text-align: left;
+  }
+
+  .hero-desc-container {
+    max-width: 100%;
+  }
+
+  .hero-desc {
+    font-size: 1.9rem;
+  }
+
+  .img2 {
+    display: none;
+  }
+
+  .abha-logo {
+    display: block;
+    width: 100%;
+  }
+
+  .feature-box {
+    width: 25rem;
+  }
+
+  .referral-box {
+    width: 100%;
+  }
+
+  .cta-links .cta-link-item:first-child {
+    margin-left: 16.5%;
+  }
+
+  .section-cta .heading-tertiary {
+    text-align: center;
+  }
+}
+
+@media (max-width: 36em) {
+  .container {
+    width: 50rem;
+  }
+
+  .section-hero .container.grid {
+    grid-template-columns: 65% 35%;
+  }
+
+  .heading-primary {
+    font-size: 4.2rem;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
+  }
+
+  .hero-desc {
+    font-size: 1.8rem;
+  }
+
+  .hero-btn:link,
+  .hero-btn:visited,
+  .hero-btn:hover,
+  .hero-btn:active {
+    font-size: 1.5rem;
+  }
+
+  .hero-btn.btn1,
+  .hero-btn.btn2 {
+    display: none;
+  }
+
+  .hero-btn.btn3:link,
+  .hero-btn.btn3:visited {
+    display: inline-block;
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+  }
+
+  .hero-btn.btn3:hover,
+  .hero-btn.btn3:active {
+    background-color: #3e8181;
+  }
+
+  .hero-helper-text {
+    display: none;
+  }
+
+  .section-features .heading-secondary {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .feature-link {
+    display: block;
+  }
+
+  .feature-box {
+    width: 20rem;
+  }
+
+  .feature-icon {
+    height: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .referral-box {
+    width: 100%;
+  }
+
+  .referral-program-info {
+    font-size: 2.3rem;
+  }
+
+  .referral-box .referral-btn {
+    font-size: 1.5rem;
+    padding: 1.2rem 2.4rem;
+  }
+
+  .cta-img-box {
+    text-align: center;
+  }
+
+  .cta-img {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .cta-img:last-child {
+    margin-right: 0.25rem;
+  }
+
+  .section-cta .heading-tertiary {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .cta-desc {
+    font-size: 1.6rem;
+  }
+
+  .cta-text {
+    font-size: 2rem;
+  }
+
+  .cta-link-item:link,
+  .cta-link-item:visited,
+  .cta-link-item:hover,
+  .cta-link-item:active {
+    font-size: 1.5rem;
+    padding: 1.2rem 1.7rem;
+  }
+
+  .cta-links .cta-link-item:first-child {
+    margin-left: 10%;
+  }
+
+  .part2 a,
+  .part3 a,
+  .part4 a {
+    font-size: 1.45rem;
+  }
+
+  .part2 span,
+  .part3 span,
+  .part4 span {
+    font-size: 2.1rem;
+  }
+
+  .footer-company-logo:link,
+  .footer-company-logo:visited,
+  .footer-company-logo:hover,
+  .footer-company-logo:active {
+    font-size: 2.3rem;
+  }
+
+  .social-link-item img {
+    height: 2.1rem;
+    width: 2.1rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 30em) {
+  .container {
+    width: 40rem;
+  }
+
+  .header {
+    /* margin-bottom: 1.5rem; */
+  }
+
+  .header-content.container {
+    padding: 0 1.5rem;
+  }
+
+  .aushadam-logo:link,
+  .aushadam-logo:visited,
+  .aushadam-logo:hover,
+  .aushadam-logo:active {
+    display: none;
+  }
+
+  .btn.btn-profile {
+    display: none;
+  }
+
+  .section-filter {
+    display: none;
+  }
+
+  .mobile-nav ion-icon {
+    font-size: 3rem;
+  }
+
+  .mobile-nav {
+    display: block;
+    background-color: #f5f7fb;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .mobile-nav .container {
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 3; */
+    margin: auto;
+    width: 100%;
+  }
+
+  .section-hero .container.grid {
+    grid-template-columns: 65% 35%;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .section-hero {
+    padding: 4.8rem 0;
+    border-radius: 22px;
+    background-color: #f5f7fb;
+  }
+
+  .section-hero .container {
+    background-color: #fff;
+    padding: 2.5rem 2.5rem;
+    border-radius: 22px;
+  }
+
+  .hero-desc {
+    font-size: 1.6rem;
+  }
+
+  .hero-desc-container {
+    margin-bottom: 3rem;
+  }
+
+  .hero-btn.btn3 {
+    font-size: 1.4rem;
+  }
+
+  .about-abha:link,
+  .about-abha:visited,
+  .about-abha:hover,
+  .about-abha:active {
+    font-size: 1.4rem;
+  }
+
+  .section-features {
+    padding: 0 0 4.8rem 0;
+  }
+
+  .section-features .grid {
+    row-gap: 2.5rem;
+    column-gap: 2.5rem;
+  }
+
+  .section-features::before,
+  .section-features::after {
+    display: none;
+  }
+
+  .feature-box {
+    width: 15rem;
+    width: 100%;
+  }
+
+  .feature-link:link {
+    width: 100%;
+  }
+
+  .feature-icon {
+    height: 5rem;
+  }
+
+  .feature-icon:nth-child(even) {
+    background-color: red;
+  }
+
+  .referral-box {
+    width: 100%;
+  }
+
+  .section-features .heading-secondary {
+    margin-bottom: 3.2rem;
+  }
+
+  .section-cta {
+    padding: 4.8rem 0;
+  }
+
+  .section-cta .grid {
+    gap: 1.5rem;
+  }
+
+  .cta-img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .referral-box.container {
+    grid-template-columns: 67.5% 34.5%;
+    padding: 2.5rem 3rem;
+  }
+
+  .referral-program-info {
+    font-size: 1.6rem;
+  }
+
+  .feature-title {
+    font-size: 1.4rem;
+  }
+
+  .section-cta .heading-tertiary {
+    font-size: 1.9rem;
+  }
+
+  .cta-desc {
+    font-size: 1.55rem;
+  }
+
+  .cta-text {
+    font-size: 1.75rem;
+  }
+
+  .cta-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-link-item:link:first-child,
+  .cta-link-item:visited:first-child,
+  .cta-link-item:hover:first-child,
+  .cta-link-item:active:first-child {
+    margin-left: 0;
+  }
+
+  .cta-link-item:link,
+  .cta-link-item:visited,
+  .cta-link-item:hover,
+  .cta-link-item:active {
+    max-width: 50%;
+  }
+
+  .footer {
+    padding: 4.8rem 3rem;
+  }
+
+  .part2 a,
+  .part3 a,
+  .part4 a {
+    font-size: 1.4rem;
+  }
+
+  .part2 span,
+  .part3 span,
+  .part4 span {
+    font-size: 1.8rem;
+  }
+
+  .social-link-item img {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .copyright-info {
+    font-size: 1rem;
+  }
+}
